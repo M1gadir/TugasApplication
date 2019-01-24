@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayoutActivity">
+
+    <Button
+        android:height="100dp"
+        android:width="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:text="Top \n \n Left"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:background="@android:color/holo_blue_light"/>
+
+    <Button
+        android:height="100dp"
+        android:width="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:text="Top \n \n center"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:background="@android:color/holo_orange_dark"/>
+
+    <Button
+        android:height="100dp"
+        android:width="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Top \n\n Right"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:background="@android:color/holo_blue_light"/>
+
+    <Button
+        android:height="100dp"
+        android:width="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="375dp"
+        android:text="Left"
+        android:textAllCaps="false"
+        android:textAlignment="gravity"
+        android:background="@android:color/holo_orange_dark"/>
+
+    <Button
+        android:height="100dp"
+        android:width="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Center"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:background="@android:color/holo_blue_light"/>
+
+    <Button
+        android:height="100dp"
+        android:width="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="375dp"
+        android:layout_alignParentRight="true"
+        android:text="Right"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:background="@android:color/holo_orange_dark"/>
+
+    <Button
+        android:height="100dp"
+        android:width="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Bottom Of Screen"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:background="@android:color/holo_blue_light"
+        />
+
+
+
+</RelativeLayout>

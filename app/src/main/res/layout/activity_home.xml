@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <Button
+        android:id="@+id/btn_lL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginUp"
+        android:background="@color/colorPrimary"
+        android:onClick="RelativeLayoutOri"
+        android:text="Layouting 1" />
+
+    <Button
+        android:id="@+id/btn_LlRl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginUp"
+        android:background="@color/colorPrimary"
+        android:onClick="RelativeLinear"
+        android:text="layouting 2" />
+
+    <Button
+        android:id="@+id/btn_Lr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginUp"
+        android:background="@color/colorPrimary"
+        android:onClick="LinearLayout"
+        android:text="layouting 3" />
+
+    <Button
+        android:id="@+id/btn_RL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginUp"
+        android:background="@color/colorPrimary"
+        android:onClick="LinearRelative"
+        android:text="Layouting 4" />
+
+</LinearLayout>
