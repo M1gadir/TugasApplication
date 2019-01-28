@@ -9,42 +9,46 @@
 
     <LinearLayout
         android:orientation="horizontal"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
     android:layout_weight="1"
     >
     <Button
         android:width="100dp"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
         android:background="@android:color/holo_red_dark"
         android:hint="Merah"
+        android:layout_weight="1"
         android:textAllCaps="false"
         android:gravity="center_horizontal"
         />
     <Button
         android:width="100dp"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
         android:background="@android:color/holo_green_dark"
         android:hint="Hijau"
+        android:layout_weight="1"
         android:textAllCaps="false"
         android:gravity="center_horizontal"/>
     <Button
         android:width="100dp"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
         android:background="@android:color/holo_blue_dark"
         android:hint="Biru"
+        android:layout_weight="1"
         android:textAllCaps="false"
         android:gravity="center_horizontal"/>
     <Button
         android:width="100dp"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
         android:background="@android:color/holo_orange_light"
         android:hint="Kuning"
         android:textAlignment="gravity"
+        android:layout_weight="1"
         android:textAllCaps="false"
         android:gravity="center_horizontal"/>
 
@@ -52,35 +56,46 @@
 
     <LinearLayout
     android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
     android:layout_weight="1">
-    <TextView
+    <EditText
     android:text="Baris Satu"
-    android:textSize="15pt"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
+    android:textSize="20pt"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
     android:layout_weight="1"/>
 
-    <EditText android:id="@+id/EditText1"
-    android:text="Baris Dua"
-    android:textSize="15pt"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:layout_weight="1"/>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/EditText1"
+    android:textSize="20pt"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1">
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="check"
+            android:textSize="50dp"/>
+
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
 
     <Button android:id="@+id/Button1"
     android:text="Baris Tiga"
-    android:textSize="15pt"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
+    android:textSize="20pt"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
     android:layout_weight="1"/>
 
     <TextView
     android:text="Baris Empat"
-    android:textSize="15pt"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
+    android:textSize="20pt"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
     android:layout_weight="1"/>
         </LinearLayout>
 
